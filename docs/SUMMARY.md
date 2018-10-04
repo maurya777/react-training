@@ -1,7 +1,10 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## JavaScript
 
-* [Context](javascript/Context.md)
-* [Scope](javascript/Scope.md)
-* [Arrays](javascript/Arrays.md)
+* [Context](javascript/context.md)
+* [Scope](javascript/scope.md)
+* [Arrays](javascript/arrays.md)
+

@@ -4,7 +4,7 @@
 * It is determined by how the a function is called.
 * Global context.
 
-```js
+```javascript
 // The global object:
 console.log(this === window); // true
 
@@ -54,3 +54,4 @@ var maxButNotLessThanNine = Math.max.bind(null, 9);
 console.log(maxButNotLessThanNine(1,2,3));
 console.log(maxButNotLessThanNine(1,2,3, 12));
 ```
+

@@ -10,21 +10,21 @@
   * const - block scoped, must initialise.
   * const is not actually constant, only its reference can't be changed.
 
-```js
+```javascript
 // Variable at global scope
 var globalNum = 10;
 
 // Variable at function scope
 function func() {
   var numInsideFunction = 15;
-  
+
   // Nested function
   function inner() {
     // Can acces parent function's scope
     console.log(numInsideFunction);
   }
   inner();
-  
+
   // Global variables are accessible inside function
   console.log(globalNum);
 }
@@ -61,5 +61,5 @@ const anotherConst = {
 
 // though the referenced object's can be updated.
 anotherConst.someProp = 40;
-
 ```
+
