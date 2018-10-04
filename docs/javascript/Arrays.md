@@ -13,4 +13,5 @@
 
 [Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-{% include "./arrays.js" %}
+```js
+```
