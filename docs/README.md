@@ -8,6 +8,3 @@ We are going to cover the following topics.
 * State management with Redux
 * Common practices
 * Current and upcoming UI of 1E
-
-
-
