@@ -1,3 +1,5 @@
+# Arrays
+
 * Iperative(conventional) vs Declarative(functional) approach.
   * Imperative methods tell how to do.
     * for, while etc.
@@ -10,3 +12,5 @@
     * reduce((accumulator, value, index) => {}, initialValue)
 
 [Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+{% include "./arrays.js" %}

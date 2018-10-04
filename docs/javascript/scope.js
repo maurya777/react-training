@@ -1,3 +1,5 @@
+```JavaScript 
+// `
 // Variable at global scope
 var globalNum = 10;
 
@@ -48,3 +50,5 @@ const anotherConst = {
 
 // though the referenced object's can be updated.
 anotherConst.someProp = 40;
+
+````

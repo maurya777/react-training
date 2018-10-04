@@ -1,3 +1,5 @@
+```JavaScript 
+// `
 // The global object:
 console.log(this === window); // true
 
@@ -46,3 +48,4 @@ console.log(Math.max.apply(null, numbers));
 var maxButNotLessThanNine = Math.max.bind(null, 9);
 console.log(maxButNotLessThanNine(1,2,3));
 console.log(maxButNotLessThanNine(1,2,3, 12));
+````
