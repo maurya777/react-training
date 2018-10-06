@@ -26,10 +26,10 @@ const F1Traits = {
     console.log('Vrooom!', this.topSpeed);
   }
 }
-const FerarriTraits = {
+const FerrariTraits = {
   topSpeed: 300
 }
-car = Object.assign(car, F1Traits, FerarriTraits);
+car = Object.assign(car, F1Traits, FerrariTraits);
 car.accelerate();
 ```
 

@@ -1,6 +1,6 @@
-# Destructuring, rest and spread functionality are againg the kind of feature which make the code consice.
+# Destructuring, rest and spread functionality are again the kind of feature which make the code concise
 
-- Desctructuring allows you to pick selcted data
+- Destructuring allows you to pick selected data
 - Rest allows you to store any number of properties in a single variable
 - Spread is the reverse of the Rest
 - It works with both Object and Arrays with little difference in syntax
@@ -43,13 +43,13 @@ let a = 1,
 [b, a] = [a, b];
 console.log(a, b);
 
-// spread insttead of function.call(context, arg1, arg2, arg3)
+// spread instead of function.call(context, arg1, arg2, arg3)
 function printLanguages(lang1, lang2, lang3) {
   console.log(lang1, lang2, lang3);
 }
 printLanguages(...languages);
 
-// reast for unkown number of arguments
+// rest for unknown number of arguments
 function printData({ name, ...otherDetails }) {
   // This pattern of passing arguments is getting quit popular
   console.log(name, ...otherDetails);

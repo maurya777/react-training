@@ -45,7 +45,7 @@ console.log(test.method.apply(test2)); // Expect 66
 var boundFunction = test.method.bind(test2);
 console.log(boundFunction()); // Expect 66
 
-// Differnce between call, apply and bind
+// Difference between call, apply and bind
 console.log(Math.max(1, 2, 3));
 console.log(Math.max.call(null, 1, 2, 3));
 var numbers = [1,2,3,4,5,6,7,8,9];

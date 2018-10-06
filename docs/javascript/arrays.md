@@ -1,6 +1,6 @@
 # Array methods
 
-* Iperative(conventional) vs Declarative(functional) approach.
+* Imperative(conventional) vs Declarative(functional) approach.
   * Imperative methods tell how to do.
     * for, while etc.
   * Declarative methods tell what to do.

@@ -2,7 +2,7 @@
 
 Also known as Fat arrow functions are different from the traditional functions in two ways:
 
-## 1. They are consice
+## 1. They are concise
 
 ### Specifying parameters:
 
@@ -28,7 +28,7 @@ Prefixer.prototype.prefixArray = function (arr) {
     });
 };
 const gentlemenFactory = new Prefixer('Mr. ');
-const people = ['you', 'me', 'soume'];
+const people = ['you', 'me', 'zumi'];
 const gentlemen = gentlemenFactory.prefixArray(people);
 console.log(gentlemen);
 ```

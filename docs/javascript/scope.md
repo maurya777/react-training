@@ -5,9 +5,9 @@
 * The function scope is accessible from inside the function as well as all the nested functions.
 * Block scope is with {}.
 * Variable definition
-  * var - function of global scoped, updatable, re-declarable, may initialise but defaults to undefined.
-  * let - block scoped, updatable, may initialise but defaults to undefined.
-  * const - block scoped, must initialise.
+  * var - function of global scoped, updatable, re-declarable, may initialize but defaults to undefined.
+  * let - block scoped, updatable, may initialize but defaults to undefined.
+  * const - block scoped, must initialize.
   * const is not actually constant, only its reference can't be changed.
 
 ```javascript
@@ -20,7 +20,7 @@ function func() {
 
   // Nested function
   function inner() {
-    // Can acces parent function's scope
+    // Can access parent function's scope
     console.log(numInsideFunction);
   }
   inner();
