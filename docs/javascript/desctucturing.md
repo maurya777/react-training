@@ -57,5 +57,5 @@ function printData({ name, ...otherDetails }) {
 printData(data); // again data is a single argument here
 ```
 
-[Read more](http://exploringjs.com/es6/ch_destructuring.html)
+[Read more](http://exploringjs.com/es6/ch_destructuring.html)  
 [Read more](http://exploringjs.com/es6/ch_parameter-handling.html#sec_spread-operator)

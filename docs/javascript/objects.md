@@ -6,7 +6,7 @@ var n = 10;
 
 here n is an object initialized to the value 10.
 
-You do not have Classes, you have Constructors(factories) and Prototypes.
+You do not have Classes, you have Constructors(factories) and Prototypes.  
 You do not extend, you compose(mixins).
 
 ```js

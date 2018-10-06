@@ -63,7 +63,7 @@ const anotherConst = {
 anotherConst.someProp = 40;
 ```
 
-[Read more](https://scotch.io/tutorials/understanding-scope-in-javascript)
-[Read more](http://exploringjs.com/es6/ch_variables.html)
-[Read more](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/#scope-chain)
+[Read more](https://scotch.io/tutorials/understanding-scope-in-javascript)  
+[Read more](http://exploringjs.com/es6/ch_variables.html)  
+[Read more](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/#scope-chain)  
 [Read more](http://dmitrysoshnikov.com/ecmascript/chapter-2-variable-object/)
