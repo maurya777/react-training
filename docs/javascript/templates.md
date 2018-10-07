@@ -1,4 +1,6 @@
-# String interpolation has been missing from JavaScript so far, while other languages had it from start
+# Template strings
+
+## String interpolation has been missing from JavaScript so far, while other languages had it from start
 
 * JavaScript support both single quotes and double quotes for it's string literal.
 * We used concatenation for injecting dynamic values inside strings.

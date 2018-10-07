@@ -1,4 +1,4 @@
-# Destructuring, rest and spread functionality are again the kind of feature which make the code concise
+# Destructuring, rest and spread
 
 - Destructuring allows you to pick selected data
 - Rest allows you to store any number of properties in a single variable

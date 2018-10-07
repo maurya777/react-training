@@ -1,4 +1,6 @@
-# Everything is Object and Object is everything
+# Objects
+
+## Everything is Object and Object is everything
 
 JavaScript is not Object oriented, it is Object based.
 

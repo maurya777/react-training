@@ -1,4 +1,6 @@
-# Classes in JavaScript are just syntactic sugar, at core they are prototypes and constructor as before
+# Classes
+
+## Classes in JavaScript are just syntactic sugar, at core they are prototypes and constructor as before
 
 Compiling the following class hierarchy in Babel REPL with ES2015 loose mode:
 

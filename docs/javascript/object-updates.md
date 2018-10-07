@@ -1,4 +1,4 @@
-# Object literals have got some updates in new ECMAScript
+# Object literal new features
 
 * Key-val shortcuts
 * Dynamic keys
