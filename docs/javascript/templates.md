@@ -15,3 +15,4 @@ console.log(greeting + ' world');
 
 // With templates
 console.log(`${greeting} world`);
+```

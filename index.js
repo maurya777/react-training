@@ -28,6 +28,7 @@ function checkWinner() {
     if (isWinning) {
       alert(`${currentPlayer} won!`);
       board = getNewBoard();
+      renderDOM(document.getElementById('app'), Board, { board, onChange });  
       return;
     }
   }
@@ -35,10 +36,8 @@ function checkWinner() {
 function onChange(row, col) {
   board[row][col]=currentPlayer;
   renderDOM(document.getElementById('app'), Board, { board, onChange });  
-  setTimeout(function(){
-    checkWinner();
-    currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-  }, 1);
+  checkWinner();
+  currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 }
 let currentPlayer = 'X';
 let board = getNewBoard();
