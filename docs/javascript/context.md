@@ -55,5 +55,5 @@ console.log(maxButNotLessThanNine(1,2,3));
 console.log(maxButNotLessThanNine(1,2,3, 12));
 ```
 
-[Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)  
-[Read more](http://dmitrysoshnikov.com/ecmascript/chapter-3-this/)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)  
+[this in detail](http://dmitrysoshnikov.com/ecmascript/chapter-3-this/)

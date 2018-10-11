@@ -33,4 +33,4 @@ const gentlemen = gentlemenFactory.prefixArray(people);
 console.log(gentlemen);
 ```
 
-[Read more](http://exploringjs.com/es6/ch_arrow-functions.html)
+[ES6:Arrow Functions](http://exploringjs.com/es6/ch_arrow-functions.html)

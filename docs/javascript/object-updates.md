@@ -28,4 +28,4 @@ const objectWithMethod = {
 console.log(objectWithMethod.getName());
 ```
 
-[Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)
+[MDN Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)

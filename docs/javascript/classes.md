@@ -90,5 +90,5 @@ var Friend = (function(_Person) {
 })(Person);
 ```
 
-[Read more](http://exploringjs.com/impatient-js/ch_proto-chains-classes.html#classes)  
-[Read more](https://medium.com/@robertgrosse/how-es6-classes-really-work-and-how-to-build-your-own-fd6085eb326a)
+[The prototype chain](http://exploringjs.com/impatient-js/ch_proto-chains-classes.html#classes)  
+[ES6 Classes in vanilla JS](https://medium.com/@robertgrosse/how-es6-classes-really-work-and-how-to-build-your-own-fd6085eb326a)

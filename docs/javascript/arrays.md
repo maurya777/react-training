@@ -58,4 +58,4 @@ NOTES:
 * They cannot break out of execution;
 * They don't even iterate for undefined values;
 
-[Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+[Array API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)

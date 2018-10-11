@@ -35,5 +35,6 @@ car = Object.assign(car, F1Traits, FerrariTraits);
 car.accelerate();
 ```
 
-[Read more](http://dmitrysoshnikov.com/ecmascript/chapter-7-1-oop-general-theory/)
-[Read more](https://javascript.info/object-oriented-programming)
+[Course](https://egghead.io/courses/understanding-javascript-s-prototypal-inheritance)  
+[Detailed Theory](http://dmitrysoshnikov.com/ecmascript/chapter-7-1-oop-general-theory/)  
+[OOJS](https://javascript.info/object-oriented-programming)  
