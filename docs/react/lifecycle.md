@@ -2,8 +2,9 @@
 
 ## Just like us, the Humans, React Components go through different stages in their life. There are predefined methods, that a component can define to do things at a particular stage in their life. These methods can be grouped in following logical events in React
 
+Legends:  
 _**bold** very useful_  
-_~~strikethrough~~ deprecated in React 17 and prefixed with UNSAFE\_, avoid using them_  
+_~~strikethrough~~ deprecated in React 17 and prefixed with UNSAFE__, _avoid using them_  
 _# newly added in React 16.3, kept here only for completeness_  
 
 - Initialization
@@ -35,8 +36,8 @@ _# newly added in React 16.3, kept here only for completeness_
   - static getDerivedStateFromError()
   - componentDidCatch()
 
-_Commonly Used Lifecycle Methods(including legacy)_
-![Commonly Used Lifecycle Methods](lifecycle.png)
+_Commonly Used Lifecycle Methods(including legacy)_  
+<img src="lifecycle.png" width="1000x" />
 
 [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)  
 [React Component](https://reactjs.org/docs/react-component.html)  
