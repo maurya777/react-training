@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  border-spacing: 0;
+}
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+}
+td:not(:first-child) {
+  border-left: 5px solid teal;
+}
+tr:not(:first-child) > td {
+  border-top: 5px solid teal;
+}
