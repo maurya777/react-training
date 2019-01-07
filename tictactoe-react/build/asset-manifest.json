@@ -1,0 +1,13 @@
+{
+  "main.css": "/react-training/tictactoe-react/build/static/css/main.5e426edd.chunk.css",
+  "main.js": "/react-training/tictactoe-react/build/static/js/main.67a41b5c.chunk.js",
+  "main.js.map": "/react-training/tictactoe-react/build/static/js/main.67a41b5c.chunk.js.map",
+  "static/js/1.36d5fb94.chunk.js": "/react-training/tictactoe-react/build/static/js/1.36d5fb94.chunk.js",
+  "static/js/1.36d5fb94.chunk.js.map": "/react-training/tictactoe-react/build/static/js/1.36d5fb94.chunk.js.map",
+  "runtime~main.js": "/react-training/tictactoe-react/build/static/js/runtime~main.b56acded.js",
+  "runtime~main.js.map": "/react-training/tictactoe-react/build/static/js/runtime~main.b56acded.js.map",
+  "static/css/main.5e426edd.chunk.css.map": "/react-training/tictactoe-react/build/static/css/main.5e426edd.chunk.css.map",
+  "index.html": "/react-training/tictactoe-react/build/index.html",
+  "precache-manifest.49d31ed47ee51f12761381d1cf1aa8e4.js": "/react-training/tictactoe-react/build/precache-manifest.49d31ed47ee51f12761381d1cf1aa8e4.js",
+  "service-worker.js": "/react-training/tictactoe-react/build/service-worker.js"
+}
