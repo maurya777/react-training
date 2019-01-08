@@ -17,9 +17,11 @@ While Compilation is a process of taking source code in a Higher level language 
 It was specially at the time of release of ES2015 AKA ES6, that there was this large gap between the two versions of ECMAScript. A new project was born which can turn the whole code base or ES6 to ES5. After ES6, it was supposed to die, but TC39 committee kept releasing new ECMAScript version, and the 6to5 project lived happily every after as Babel!
 
 ```bash
+# initialize an npm package in your root directory
+> npm init
 # Install globally available babel command
-> npm i -g @babel/babel-core @babel/babel-cli
-> babel --help
+> npm i --save-dev @babel/core @babel/cli
+> npx babel --help
 ```
 
 In previous example with webpack, if we wanted to convert the add.js to a class with class-properties like this, webpack won't be able to bundle it. Because class properties is not currently available in node(v10.11.0).
@@ -37,12 +39,10 @@ export default class {
 Babel can help us by converting this code to a compatible syntax. But to do that we need to tell Babel that we want the class property feature, which is still experimental.
 
 ```bash
-# initialize an npm package in your root directory
-> npm init
 # install @babel/core and @babel/plugin-proposal-class-properties
-> npm i @babel/core and @babel/plugin-proposal-class-properties
+> npm i --save-dev @babel/plugin-proposal-class-properties
 # transpile with babel plugin
-> babel --plugins @babel/plugin-proposal-class-properties add.js -o add.babel.js
+> npx babel --plugins @babel/plugin-proposal-class-properties add.js -o add.babel.js
 # let's see the output
 > cat add.babel.js
 # now webpack can understand the syntax of add.babel.js
